@@ -1,0 +1,10 @@
+INSERT INTO `archyvas` (`menuo`) VALUES ("elit"),("neque"),("neque"),("Curae;"),("pede,"),("sollicitudin"),("quis"),("velit"),("rutrum"),("parturient");
+INSERT INTO `archyvas` (`menuo`) VALUES ("urna."),("Vivamus"),("odio"),("adipiscing"),("risus."),("interdum"),("mauris"),("turpis."),("ac"),("volutpat");
+INSERT INTO `archyvas` (`menuo`) VALUES ("luctus"),("pede."),("Praesent"),("eget"),("justo."),("faucibus"),("tellus."),("et"),("neque"),("augue,");
+INSERT INTO `archyvas` (`menuo`) VALUES ("tortor."),("vel"),("dictum."),("arcu."),("Duis"),("Mauris"),("at"),("nibh."),("Nullam"),("Donec");
+INSERT INTO `archyvas` (`menuo`) VALUES ("mattis"),("Duis"),("lacinia"),("Aenean"),("lorem"),("Nullam"),("adipiscing"),("vestibulum"),("Curae;"),("convallis");
+INSERT INTO `archyvas` (`menuo`) VALUES ("enim"),("dolor"),("a,"),("laoreet"),("consectetuer"),("dis"),("a,"),("lacus."),("vulputate"),("Suspendisse");
+INSERT INTO `archyvas` (`menuo`) VALUES ("pede"),("Donec"),("fermentum"),("molestie."),("sodales"),("lorem,"),("ullamcorper"),("eleifend"),("euismod"),("vitae");
+INSERT INTO `archyvas` (`menuo`) VALUES ("lorem"),("consectetuer"),("at"),("magna"),("id"),("mauris"),("diam"),("lorem,"),("ac"),("egestas");
+INSERT INTO `archyvas` (`menuo`) VALUES ("consectetuer"),("placerat,"),("aliquet"),("tincidunt"),("placerat,"),("Donec"),("eros."),("dui."),("semper."),("lacus.");
+INSERT INTO `archyvas` (`menuo`) VALUES ("lorem"),("sem,"),("Nunc"),("magna"),("arcu."),("egestas"),("a,"),("dui."),("dolor"),("tellus");

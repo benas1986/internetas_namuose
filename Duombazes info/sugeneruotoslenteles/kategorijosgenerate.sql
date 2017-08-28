@@ -1,0 +1,10 @@
+INSERT INTO `kategorijos` (`pavadinimas`) VALUES ("tempor,"),("Cum"),("luctus"),("ligula."),("et"),("lobortis"),("Aliquam"),("neque"),("dapibus"),("cursus");
+INSERT INTO `kategorijos` (`pavadinimas`) VALUES ("at"),("nisi."),("velit"),("nec,"),("arcu."),("facilisis,"),("commodo"),("rutrum"),("vel"),("elit.");
+INSERT INTO `kategorijos` (`pavadinimas`) VALUES ("Aliquam"),("a,"),("enim."),("Proin"),("congue"),("nibh"),("nulla"),("adipiscing"),("Nulla"),("Vivamus");
+INSERT INTO `kategorijos` (`pavadinimas`) VALUES ("dapibus"),("eget"),("tincidunt"),("ullamcorper,"),("tristique"),("Vivamus"),("magna"),("lacus."),("porttitor"),("dui.");
+INSERT INTO `kategorijos` (`pavadinimas`) VALUES ("Curabitur"),("mollis"),("nec"),("et"),("lectus"),("est."),("dis"),("mattis"),("pede"),("adipiscing");
+INSERT INTO `kategorijos` (`pavadinimas`) VALUES ("velit"),("faucibus"),("ullamcorper"),("non,"),("Sed"),("est."),("Nullam"),("vitae"),("nunc"),("molestie");
+INSERT INTO `kategorijos` (`pavadinimas`) VALUES ("pharetra"),("orci."),("lorem,"),("Donec"),("feugiat."),("lacus."),("cursus"),("nunc"),("ornare"),("nec");
+INSERT INTO `kategorijos` (`pavadinimas`) VALUES ("Curae;"),("ipsum"),("dapibus"),("fringilla"),("metus"),("venenatis"),("et"),("magna."),("pharetra"),("auctor,");
+INSERT INTO `kategorijos` (`pavadinimas`) VALUES ("adipiscing"),("quis"),("morbi"),("lobortis"),("Etiam"),("malesuada"),("Aliquam"),("Aliquam"),("dis"),("neque");
+INSERT INTO `kategorijos` (`pavadinimas`) VALUES ("turpis"),("tincidunt,"),("ac"),("non,"),("convallis,"),("commodo"),("consectetuer"),("malesuada."),("et,"),("Quisque");

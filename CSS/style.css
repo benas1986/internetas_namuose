@@ -1,0 +1,511 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: #f4f4f4;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+}
+
+#startchange {
+    background-color: darksalmon;
+}
+
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: white;
+    color: darksalmon;
+    letter-spacing: 1.2px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: #31b0d5;
+}
+
+#startchange > div > div.navbar-header > a:focus, #startchange > div > div.navbar-header > a:hover {
+    color: white;
+    background-color: #31b0d5;
+} 
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    letter-spacing: 1.2px;
+}
+
+.navbar .navbar-header a {
+    color: white;
+}
+
+.btn {
+    color: white;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    
+}
+
+.btn:focus, .btn:hover {
+
+    color: white;
+    background-color: darksalmon;
+    border-color: darkorange;
+
+}
+
+#pagrindinis .bg {
+    /* The image used */
+    background-image: url(../Foto/InternetasNamuose.jpeg);
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagrindinis .bg p,
+.bg a {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+
+#pagrindinis .bg p {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+}
+
+#pagrindinis .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#pagrindinis #zemiau .row h2 {
+    border-radius: 15px;
+    background-color: #31b0d5;
+    box-shadow: 5px 5px 5px darksalmon;
+    padding: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+
+#pagrindinis .container .row {
+    position: relative;
+    padding: 0;
+    margin: 1em;
+}
+
+#pagrindinis article {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#pagrindinis .container .row .elementas {
+    padding: 1px;
+}
+
+#pagrindinis article img {
+    height: 280px;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+#pagrindinis article img:hover {
+    transform: scale(1.1);
+}
+
+#pagrindinis .tekstas {
+    width: 100%;
+    padding: 1em;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 50%;
+    text-align: left;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+}
+
+#pagrindinis .tekstas a {
+    text-decoration: none;
+    color: white;
+}
+
+#pagrindinis .tekstas p {
+    text-decoration: none;
+    color: white;
+}
+
+#straipsniai .row {
+    margin: 1em;
+}
+
+#straipsniai .panel-heading {
+    padding: 10px 25px;
+    background: #31b0d5;
+    min-height: 50px;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+}
+
+#straipsniai .kategorijos span {
+    background-color: darksalmon;
+}
+
+#straipsniai .panel-body {
+    padding: 0;
+    margin: 0;
+}
+
+#straipsniai .pirmas {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#straipsniai .list-group {
+    margin: 0;
+}
+
+#straipsniai .bruksnys {
+    display: flex;
+    text-align: center;
+    border-top: 2px solid black;
+    border-top-color: darksalmon;
+    margin: 2em 0;
+}
+
+#straipsnis > article > a > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+#straipsnis > article > div.author-info > ul > li > i {
+    font-size: 2em;
+    padding: 0.1em;
+}
+
+#straipsnis h4 {
+    color: white;
+    border-radius: 15px;
+    background-color: #31b0d5;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    box-shadow: 5px 5px 5px darksalmon;
+
+}
+
+#straipsnis > article > div.author-info {
+    padding: 15px 15px 15px 15px;
+    text-align: left;
+    min-height: 60px;
+    border-bottom: 1px solid #ddd;
+    background: #fcfcfc;
+    width: 100%;
+}
+
+#straipsnis > article > div.author-info > ul > li {
+    padding-left: 9px;
+    padding-right: 9px;
+    border-left: 1px solid #ddd;
+    display: inline-flex;
+}
+
+#straipsnis > article > div.tekstas > h3 > a {
+    text-decoration: none;
+    color: black;
+}
+
+#straipsnis_pilnas > article > img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+#straipsnis_pilnas > article > div.author-info > ul > li > i {
+    font-size: 2em;
+    padding: 0.1em;
+}
+
+#straipsnis_pilnas h4 {
+    color: white;
+    border-radius: 15px;
+    background-color: #31b0d5;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    box-shadow: 5px 5px 5px darksalmon;
+
+}
+
+#straipsnis_pilnas > article > div.author-info {
+    padding: 15px 15px 15px 15px;
+    text-align: left;
+    min-height: 60px;
+    border-bottom: 1px solid #ddd;
+    background: #fcfcfc;
+    width: 100%;
+}
+
+#straipsnis_pilnas > article > div.author-info > ul > li {
+    padding-left: 9px;
+    padding-right: 9px;
+    border-left: 1px solid #ddd;
+    display: inline-flex;
+}
+
+#straipsnis_pilnas > article > div.tekstas > h3 > a {
+    text-decoration: none;
+    color: black;
+}
+
+#apie_mane #about-personal-section {
+    overflow: hidden;
+}
+
+#apie_mane #about-me > div > div > div > div:nth-child(1) > div.progress-meta {
+    display: block;
+}
+
+#apie_mane #about-me > div > div > div > div > div.progress-meta > h6.progress-value {
+    float: right;
+}
+
+#apie_mane .progress {
+    background-color: aqua;
+    height: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+
+#kontaktai .row {
+    margin: 2.1em 1em;
+
+}
+
+
+#kontaktai .panel-heading {
+    padding: 10px 25px;
+    background: #31b0d5;
+    min-height: 50px;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+}
+
+#kontaktai #susisiekite {
+    padding: 6.5em;
+    background-color: darksalmon;
+    box-shadow: 10px 10px 0 0 #31b0d5;
+    border-radius: 15px;
+    color: white;
+}
+
+#kontaktai #susisiekite p {
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+
+#kontaktai #contact-form > div:nth-child(3) > div > button {
+    margin-top: 1em;
+    width: 100%;
+}
+
+.footer-distributed{
+	background-color: darksalmon;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+footer img {
+    width: 25%;
+    height: 100px;
+    
+}
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  white;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  white;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  white;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  white;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #31b0d5;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: white;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  white;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  white;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #31b0d5;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
